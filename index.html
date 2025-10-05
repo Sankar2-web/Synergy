@@ -1,0 +1,1189 @@
+﻿
+<!DOCTYPE html>
+<html lang="zxx">
+    
+<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap Min CSS --> 
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- Owl Theme Default Min CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<!-- Owl Carousel Min CSS --> 
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<!-- Owl Magnific Popup Min CSS --> 
+		<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+		<!-- Animate Min CSS --> 
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<!-- Boxicons Min CSS --> 
+		<link rel="stylesheet" href="assets/css/boxicons.min.css"> 
+		<!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<!-- Meanmenu Min CSS -->
+		<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+		<!-- Nice Select Min CSS -->
+		<link rel="stylesheet" href="assets/css/nice-select.min.css">
+		<!-- Odometer Min CSS-->
+		<link rel="stylesheet" href="assets/css/odometer.min.css">
+		<!-- Swiper Bundle Min CSS-->
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- Dark CSS -->
+		<link rel="stylesheet" href="assets/css/dark.css">
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/img/favicon.html">
+        <link href="../../unpkg.com/boxicons%402.1.4/css/boxicons.min.css" rel="stylesheet">
+
+		<!-- Title -->
+		<title>Synergy CRM</title>
+
+        <style>
+            .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure overlay is on top */
+}
+ 
+.modal-content {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10000; /* Ensure content is above everything */
+}
+
+            .close-btn {
+                cursor: pointer;
+                font-size: 20px;
+                border: none;
+                background: none;
+            }
+        </style>
+
+        <script>
+    function openContactPopup() {
+        document.getElementById("contactFrame").src = "Contact.html";
+        document.getElementById("modalPopup").style.display = "flex";
+    }
+    function closePopup() {
+        document.getElementById("modalPopup").style.display = "none";
+        document.getElementById("contactFrame").src = ""; // clear iframe when closed
+    }
+        </script>
+        
+    </head>
+
+
+
+    <body class="home-six">
+
+       
+		<!-- Start Preloader Area -->
+		<div class="loader-wrapper">
+			<div class="loader"></div>
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
+		<!-- End Preloader Area -->
+
+		<!-- Start Heder Area --> 
+		<header class="header-area-six fixed-top">
+			<div class="top-header-area">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-sm-6">
+							<ul class="header-content-left">
+								<li>
+									<a >
+										<img src="assets/icons/call.svg" alt="image" style="margin-top:-3px;"  />
+                                       <span style="margin-left:8px;">+91 98400 75250</span>
+									</a>
+								</li>
+								<li>
+                                        <a >
+                                            <img src="assets/icons/mail.svg" alt="image" style="margin-top:-3px;" />
+                                            <span class="__cf_email__" data-cfemail="deb6bbb2b2b19eadbbb5abf0bdb1b3" style="margin:8px;">cogent.enquiry@gmail.com</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                
+						</div>
+
+						<div class="col-lg-6 col-sm-6">
+							<div class="header-content-right">
+								<ul class="language-area">
+									<li class="language-item-top">
+						
+									</li>
+								</ul>
+
+								<ul class="log-in-sign-up">
+									<li>
+										
+                                        <a href="#" onclick="openContactPopup(); return false;">Contact</a>
+									</li>
+							
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Start Navbar Area -->
+			<div class="nav-area-six">
+				<div class="navbar-area">
+					<!-- Menu For Mobile Device -->
+					<div class="mobile-nav">
+						<a href="index.html" class="logo">
+							<img src="assets/img/logo/logo.svg" alt="Logo">
+						</a>
+					</div>
+
+					<!-- Menu For Desktop Device -->
+					<div class="main-nav">
+						<nav class="navbar navbar-expand-md">
+							<div class="container-fluid">
+								<a class="navbar-brand" href="index.html">
+									<img src="assets/img/logo/logo.svg" alt="Logo">
+								</a>
+								
+								<div class="collapse navbar-collapse mean-menu">
+									<ul class="navbar-nav ml-auto">
+										<li class="nav-item">
+											<a href="index.html" class="nav-link active">
+												Home
+											
+											</a>
+
+										<li class="nav-item">
+											<a href="About/about.html" class="nav-link">About</a>
+										</li>
+
+									
+
+										<li class="nav-item">
+											<a href="#" class="nav-link">
+												Services
+													<img src="assets/icons/down-arrow.svg">
+											</a>
+
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="FieldServiceOperations/index.html" class="nav-link">Field Service Operations</a>
+												</li>
+												<li class="nav-item">
+													<a href="PartnerManagement/index.html" class="nav-link">Partner Management</a>
+												</li>
+												<li class="nav-item">
+													<a href="SiteManagement/index.html" class="nav-link">Site Management</a>
+												</li>
+												<li class="nav-item">
+													<a href="HelpDesk/index.html" class="nav-link">Help Desk</a>
+												</li>
+                                                <li class="nav-item">
+                                                    <a href="ServiceCenters/index.html" class="nav-link">Service Centers </a>
+                                                </li>
+											</ul>
+										</li>
+
+										
+
+										<li class="nav-item">
+											<a  class="nav-link" href="#Industries">Industries</a>
+										</li>
+                                        <li class="nav-item">
+                                            <a  class="nav-link"  href="#casestudy" >Case Studies</a>
+                                        </li>
+									</ul>
+									
+									<!-- Start Other Option -->
+									<div class="others-option">
+
+										<div class="sidebar-menu">
+											
+										</div>
+									</div>
+									<!-- End Other Option -->
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<!-- End Navbar Area -->
+		</header>
+		<!-- End Heder Area -->
+
+	
+		<!-- Start Banner Area -->
+		<section class="banner-area-six">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="banner-text">
+                            <h1 class="wow animate__animated animate__fadeInLeft" data-wow-delay="1s">AI That Anticipates.<br />Ops That Never Stop. </h1>
+
+							<p class="wow animate__animated animate__fadeInRight" data-wow-delay="1s">Move beyond service management software to true autonomous service intelligence.From prediction to prevention — transform the way your business runs.</p>
+
+                            <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                                <a class="default-btn six" onclick="openContactPopup(); return false;" >
+                                    Get a Free Demo
+                                    <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                </a>
+                            </div>
+						</div>
+					</div>
+					
+					<div class="col-lg-6">
+						<div class="banner-img">
+							<img src="assets/img/banner/banner1.png" alt="Image">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-shape-1">
+				<img src="assets/img/banner/shape-1.png" alt="Image">
+			</div>
+			<div class="banner-shape-2">
+				<img src="assets/img/banner/shape-2.png" alt="Image">
+			</div>
+		</section>
+		<!-- End Banner Area -->
+
+        <!-- End Services Area -->
+        <section class="services-area ptb-100">
+            <div class="container">
+                <div class="section-title-six">
+                    <span>Our Services</span>
+                    <h2>20 Years of Dominance. Powered by Next-Level AI</h2>
+                    <p>Almost every service task falls into just 5 workflows.<br />  We’ve trained AI to know each one inside out, its bottlenecks, its blind spots, and the smartest way to get it done. </p>
+                </div>
+
+                <div class="services-slider-content">
+                    <!-- Start Carousel Thumbs -->
+                    <div class="thumbs-wrap">
+
+                        <ul class="owl-thumbs hero-slider-thumb" data-slider-id="1">
+                            
+                            <li class="owl-thumb-item">
+                                <span>Field Service Operations</span>
+                            </li>
+
+                            <li class="owl-thumb-item">
+                                <span>Partner Management</span>
+                            </li>
+
+                            <li class="owl-thumb-item">
+                                <span>Site Management</span>
+                            </li>
+
+                            <li class="owl-thumb-item">
+                                <span>Help Desk</span>
+                            </li>
+
+                            <li class="owl-thumb-item">
+                                <span>Service Centers </span>
+                            </li>
+                        </ul>
+                        <!-- End Carousel Thumbs -->
+                    </div>
+
+                    <div class="services-slider owl-theme owl-carousel" data-slider-id="1">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="services-single-item">
+                                    <h3>Field Service Operations</h3>
+                                    
+                                    <h6>From guesswork to precision. </h6>
+                                    <p>Technician dispatch has always been a game of chance—send the wrong person, and you’re looking at delays, repeat visits, and frustrated customers. </p>
+                                    <p>Predictive AI changes that. By analyzing past fixes, skills, and even equipment history, it ensures the right technician arrives with the right tools the first time. The result? A 60% boost in first-time fix rates. For industries like manufacturing, medical equipment, and labs, that means less downtime, safer operations, and happier clients. </p>
+
+                                    <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius nihil dolorem cumque</p>-->
+
+                                    <a class="default-btn six" href="FieldServiceOperations/index.html">
+                                       
+                                        Learn More
+                                        <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="services-img">
+                                    <img src="assets/img/services/service.png" alt="Image">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="services-single-item">
+                                    <h3>Partner Management</h3>
+                                    <h6>Complex ecosystems, simplified.</h6>
+                                    <p>OEMs live in a world of sprawling partner networks—dealers, distributors, repair shops—all working at different speeds. Managing them often eats up more time than the work itself. </p>
+                                    <p>AI-powered coordination cuts through the noise, automating scheduling, routing, and communication. The payoff? A 50% reduction in partner management overhead. For white goods, electronics, and automotive industries, it turns a messy web into a smooth, synchronized machine.  </p>
+
+                                    <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius nihil dolorem cumque</p>-->
+
+                                    <a class="default-btn six" href="PartnerManagement/index.html">
+                                        <!--<i class="bx bx-file"></i>-->
+                                        Learn More
+                                       <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="services-img">
+                                    <img src="assets/img/services/services-2.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="services-single-item">
+                                    <h3>Site Management</h3>
+                                    <h6>Taming complexity across environments. </h6>
+                                    <p>A manufacturing plant or hospital isn’t one system—it’s dozens of interconnected ones. When something breaks, finding the root cause can take hours or days. </p>
+                                    <p>AI thrives in this complexity. By correlating issues across products and environments, it accelerates resolution by 40%. For data centers, plants, and hospitals, that means fewer blind spots, faster fixes, and smoother operations where every minute matters.</p>
+
+                                
+                                    <a class="default-btn six" href="SiteManagement/index.html">
+                                        <!--<i class="bx bx-file"></i>-->
+                                        Learn More
+                                        <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="services-img">
+                                    <img src="assets/img/services/services-3.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="services-single-item">
+                                    <h3>Help Desk</h3>
+                                    <h6>Support that solves itself.</h6>
+                                    <p>Traditional help desks drown in tickets—most of which arerepeatable, routine, and predictable. </p>
+                                    <p>With intelligent routing and automation, AI can resolve up to 70% of issues without human input. Users get answers instantly, support teams focus on the critical problems, and organizations in software, telecom, and finance finally see service turn from reactive to proactive.  </p>
+
+                                    <!--<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius nihil dolorem cumque</p>-->
+
+                                    <a class="default-btn six" href="HelpDesk/index.html">
+                                        <!--<i class="bx bx-file"></i>-->
+                                        Learn More
+                                        <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="services-img">
+                                    <img src="assets/img/services/services-4.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="services-single-item">
+                                    <h3>Service Centers </h3>
+                                    <h6>No more queues, only experiences. </h6>
+                                    <p>Walk-in service centers often mean one thing: waiting. Long lines, frustrated customers, and inconsistent service delivery.</p>
+                                    <p>AI flips the script. By optimizing walk-ins, managing queues, and predicting peak demand, it cuts wait times by 45%. For consumer electronics, automotive, and retail, service centers transform into experience centers where customers walk in and walk out with smiles, not wasted hours.</p>
+
+                                 
+                                    <a class="default-btn six" href="ServiceCenters/index.html">
+                                        <!--<i class="bx bx-file"></i>-->
+                                        Learn More
+                                        <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="services-img">
+                                    <img src="assets/img/services/service-6.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services Area -->
+
+
+
+		<!-- Start Partner Area -->
+        <section class="partner-area bg-color-f9f9f9 ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="partner-slider-six owl-carousel owl-theme">
+                        <div class="partner-item">
+                            <a >
+                                <img src="assets/img/partner/hitachi-logo%201.png" alt="Image">
+                            </a>
+                        </div>
+
+                        <div class="partner-item">
+                            <a >
+                                <img src="assets/img/partner/spinco-logo%201.png" alt="Image">
+                            </a>
+                        </div>
+
+                        <div class="partner-item">
+                            <a >
+                                <img src="assets/img/partner/partner-5.png" alt="Image">
+                            </a>
+                        </div>
+
+                        <div class="partner-item">
+                            <a>
+                                <img src="assets/img/partner/logo%201.png" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+            <!-- End Partner Area -->
+            <!-- Start Our Serve Area -->
+        <section class="services-area ptb-100" id="Industries">
+            <div class="container">
+                <div class="section-title-six">
+                    <span>Our Industries</span>
+                    <h2>Service Transformed. Results Delivered</h2>
+                    <p>From cutting factory downtime to keeping medical equipment at peak performance,<br /> our AI tackles challenges head-on—delivering smarter, smoother operations.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+
+                            <i><img src="assets/icons/Instrumentation.svg" alt="Image"></i>
+                            <h3>Instrumentation </h3>
+                            <p>AI cut calibration backlogs by 3 weeks and speed cycles 40% faster with predictive maintenance and scheduling.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+                            <i><img src="assets/icons/White%20Goods.svg" alt="Image"></i>
+                            <h3>White Goods</h3>
+                            <p>AI boosted partner coordination by 60%, automating dispatch across 200+ service partners nationwide.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+                            <i><img src="assets/icons/ATM%20Services.svg" alt="Image"></i>
+                            <h3>ATM Services</h3>
+                            <p>Predictive cash management cut unexpected ATM downtime by half, cutting customer complaints significantly. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+                            <i><img src="assets/icons/Medical-Equipment.svg" alt="Image"></i>
+                            <h3>Medical Equipment</h3>
+                            <p>AI prevented 95% of critical failures, keeping vital hospital equipment up and running.  </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+                            <i><img src="assets/icons/Healthcare-IT.svg" alt="Image"></i>
+                            <h3>Healthcare IT</h3>
+                            <p>AI resolved 70% of help desk tickets automatically, freeing teams to tackle complex issues.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-serve">
+                            <i><img src="assets/icons/Manufacturing.svg" alt="Image"></i>
+                            <h3>Manufacturing</h3>
+                            <p>Predictive maintenance cut unplanned production downtime by 85%, streamlining parts ordering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="banner-btn wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+                <a class="default-btn six" onclick="openContactPopup(); return false;" style="margin-left:42%;">
+                    Get a Free Demo
+                    <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                </a>
+
+            </div>
+        </section>
+
+
+            <!-- End Our Serve Area -->
+            <!-- Start NS Fun Facts Area -->
+            <div class="ns-fun-facts-area">
+                <div class="container">
+                    <div class="ns-fun-facts-inner">
+                        <div class="row justify-content-center g-5">
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="ns-fun-facts-card">
+                                    <div class="icon">
+                                        <img src="assets/icons/Years%20Service.svg" alt="edit">
+                                    </div>
+                                    <div class="title">
+                                        <h3><span class="odometer" data-count="20">00</span><span class="sign">+</span></h3>
+                                        <p>Years Service</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="ns-fun-facts-card">
+                                    <div class="icon">
+                                        <img src="assets/icons/Organizations.svg" alt="edit">
+                                    </div>
+                                    <div class="title">
+                                        <h3><span class="odometer" data-count="500">00</span><span class="sign">+</span></h3>
+                                        <p>Organizations</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="ns-fun-facts-card">
+                                    <div class="icon">
+                                        <img src="assets/icons/Boosting%20Efficiency.svg" alt="edit">
+                                    </div>
+                                    <div class="title">
+                                        <h3><span class="odometer" data-count="40">00</span><span class="sign">+</span></h3>
+                                        <p>Boosting Efficiency</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="ns-fun-facts-card">
+                                    <div class="icon">
+                                        <img src="assets/icons/ATM%20Services.svg" alt="edit">
+                                    </div>
+                                    <div class="title">
+                                        <h3><span class="odometer" data-count="99.7">00</span><span class="sign">%</span></h3>
+                                        <p>Critical Operations </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End NS Fun Facts Area -->
+            <!-- Start Choose Us Six Area -->
+        <section class="partner-area bg-color-f9f9f9 ptb-100">
+            <div class="container">
+                <div class="section-title-six">
+                    <span>Industry Vertical</span>
+                    <h2>AI Service Management Built for Your Industry</h2>
+                    <p>Every industry has unique service challenges.<br /> Our AI understands your specific workflows, compliance requirements, and customer expectations.</p>
+                </div>
+
+                <div class="choose-us-six-content" style="margin-right: 20px;">
+                    <div class="tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-9">
+                                <div class="tab_content">
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3>Manufacturing & Industrial Equipment</h3>
+                                                        <p>Field Service Operations + Site Management with predictive maintenance and production impact assessment.Minimizes downtime during service with 85% reduction in unplanned production stoppages.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3>Healthcare & Medical Devices</h3>
+                                                        <p>Field Service Operations + Help Desk with patient safety prioritization and regulatory compliance. Ensures life-critical equipment reliability with 99.7% uptime.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical-7.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3>Information Technology & Software</h3>
+                                                        <p>Help Desk + Site Management with automated resolution and intelligent escalation. Resolves 70% of issues without human intervention.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical-3.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3>Consumer Electronics & Appliances</h3>
+                                                        <p>Service Centers + Partner Management with walk-in optimization and partner coordination. Delivers 60% improvement in service consistency.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical-4.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3> Automotive & Transportation</h3>
+                                                        <p>Service Centers + Field Service Operations with vehicle downtime minimization and mobile service optimization. Reduces repair completion time by 50%.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical-5.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-content">
+                                                    <div class="choose-us">
+                                                        <h3>  Financial Services & Fintech</h3>
+                                                        <p>Help Desk + Site Management with security-first, compliant resolution.Maintains 99.9% compliance with improved customer satisfaction.</p>
+                                                    </div>
+                                                    <div class="shape-1">
+                                                        <img src="assets/img/industry%20vertical/shape-1.png" alt="Image">
+                                                    </div>
+                                                    <div class="shape-3">
+                                                        <img src="assets/img/industry%20vertical/shape-3.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="choose-us-img">
+                                                    <img src="assets/img/industry%20vertical/Industry%20Vertical-6.png" alt="Image">
+
+                                                    <div class="shape-2">
+                                                        <img src="assets/img/industry%20vertical/shape-2.png" alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <ul class="tabs">
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Manufacturing & Industrial Equipment
+                                    </li>
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Healthcare & Medical Devices
+                                    </li>
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Information Technology & Software
+                                    </li>
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Consumer Electronics & Appliances
+                                    </li>
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Automotive & Transportation
+                                    </li>
+                                    <li>
+                                        <i><img src="assets/icons/left%20arrow.svg" alt="icon" style="margin-top: 16px;"></i>
+                                        Financial Services & Fintech
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- End Services Area -->
+             <!-- Start Testimonials Area -->
+        <section class="testimonials-area bg-color-f9f9f9 pt-100 pb-70" style="background: #F9F9F9;
+height: 539.59px;
+flex-shrink: 0;">
+            <div class="container" style="margin-top:-50px;">
+                <div class="section-title-six">
+                    <span>Testimonials</span>
+                    <h2>What Customers Say About Us</h2>
+                </div>
+
+                <div class="testimonials">
+                    <div class="testimonials-slider owl-carousel owl-theme">
+                        <div class="testimonials-item">
+                            <p>“With Synergy CRM, our key activities became measurable, which helped us improve<br /> our customer service. It is a great tailor-made solution for Field Service Management.”</p>
+
+                            <div class="testimonials-view" style="margin:42px;">
+                                <img src="assets/img/testimonials/Testimonial-1.png" alt="Image">
+                                <h3>Vinod Salunke</h3>
+                                <span>Metrohm India Limited</span>
+                            </div>
+                        </div>
+                        <div class="testimonials-item">
+                            <p>“Before Synergy CRM, our operations management through excel led to many operational difficulties. After Synergy CRM, our problems were solved and overall productivity increased.”</p>
+
+                            <div class="testimonials-view">
+                                <img src="assets/img/testimonials/Testimonial-2.png" alt="Image">
+                                <h3>N. Ramachandran</h3>
+                                <span>Thakral Service India Limited</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <i class='quote bx bxs-quote-alt-right'></i>
+                </div>
+            </div>
+        </section>
+        <!-- Eed Testimonials Area -->
+
+            <!-- Start Video Area -->
+            <!--<section class="video-area-six pb-100">
+            <div class="container">
+                <div class="video-img-six">
+                    <img src="assets/img/home-six/video-img.png" alt="Image">
+                    <div class="video-button">
+                        <a href="https://www.youtube.com/watch?v=sdpxddDzXfE" class="video-btn popup-youtube">
+                            <i class="bx bx-play"></i>
+                        </a>
+                    </div>
+
+                    <h3>Watch Video</h3>
+                </div>
+            </div>
+        </section>-->
+            <!-- Eed Video Area -->
+            <!-- Start Blog Area -->
+     
+            <section class="blog-area pb-70" id="casestudy">
+                <div class="container">
+                    <div class="section-title-six">
+                        <span>Case Study</span>
+                        <h2>Our Latest Insights Are On Top</h2>
+                        <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="ns-services-card">
+                                <div class="image">
+                                    <a href="services-details.html">
+                                        <img src="assets/img/case%20study/case-1.png" alt="Image">
+                                    </a>
+                                    <!--<div class="icon">
+                                    <img src="assets/img/case study/case-1.png" alt="Image">
+                                </div>-->
+                                </div>
+                                <div class="content">
+                                    <h3>
+                                        <a href="services-details.html">Automotive Parts Manufacturer</a>
+                                    </h3>
+                                    <p>Predictive maintenance AI with multi-system coordination for manufacturing operations. Achieved 85% downtime reduction, saving ₹18 crores annually with ROI in 8 months.</p>
+                                    <!--<a href="services-details.html" class="services-btn">
+                                    <span class="link-text">Learn More</span>
+                                    <span class="link-icon">
+                                        <img src="assets/icons/Next arrow.svg" alt="icon">
+                                    </span>
+                                </a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="ns-services-card">
+                                <div class="image">
+                                    <a href="services-details.html">
+                                        <img src="assets/img/case%20study/case-2.png" alt="Image">
+                                    </a>
+                                    <!--<div class="icon">
+                                    <img src="assets/img/network-security/service-icon5.svg" alt="icon">
+                                </div>-->
+                                </div>
+                                <div class="content">
+                                    <h3>
+                                        <a href="services-details.html">Multi-Hospital Healthcare System</a>
+                                    </h3>
+                                    <p>Patient impact prioritization with predictive maintenance for critical care equipment. Ensured 99.7% uptime and zero patient care disruptions within 4 months.</p>
+                                    <!--<a href="services-details.html" class="services-btn">
+                                    <span class="link-text">Learn More</span>
+                                    <span class="link-icon">
+                                        <img src="assets/icons/Next arrow.svg" alt="icon">
+                                    </span>
+                                </a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="ns-services-card">
+                                <div class="image">
+                                    <a href="services-details.html">
+                                        <img src="assets/img/case%20study/case-3.png" alt="Image">
+                                    </a>
+                                    <!--<div class="icon">
+                                    <img src="assets/img/network-security/service-icon6.svg" alt="icon">
+                                </div>-->
+                                </div>
+                                <div class="content">
+                                    <h3>
+                                        <a href="services-details.html">Software Company Help Desk</a>
+                                    </h3>
+                                    <p>Autonomous resolution with intelligent escalation for repetitive technical issues. Resolved 70% of tickets automatically, improving customer satisfaction by 45%.</p>
+                                    <!--<a href="services-details.html" class="services-btn">
+                                    <span class="link-text">Learn More</span>
+                                    <span class="link-icon">
+                                        <img src="assets/icons/Next arrow.svg" alt="icon">
+                                    </span>
+                                </a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- End Blog Area -->
+            <!-- Start Lets Talk Area -->
+            <section class="lats-talk-area ptb-100">
+                <div class="container">
+                    <div class="lats-talk-content">
+                        <h2>Transform Your Service Operations Today</h2>
+                        <p >Harness 20+ years of expertise and the power of AI to streamline workflows, cut downtime, and<br /> boost efficiency. Let’s turn your service challenges into success stories—starting now. </p>
+
+                        <a class="default-btn six" onclick="openContactPopup(); return false;" >
+                            <!--<i class="bx bx-file"></i>-->
+                            Get a Free Demo
+                            <img src="assets/icons/Next%20arrow.svg" alt="icon" class="arrow-icon">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- End Lets Talk Area -->
+            <!-- Start Footer Area -->
+            <footer class="footer-area pt-100 pb-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-footer-widget">
+                                <a href="index.html" class="logo">
+                                    <img src="assets/img/logo/logo.svg" alt="Image">
+                                </a>
+
+                                <p>“Cogent Innovations blends 20 years of service-management expertise with thoughtful innovation—tailoring clear, user-friendly solutions that grow with your business.” </p>
+                                <!--<a href="https://www.geeksforgeeks.org/python/python-object/" target="_blank" rel="noopener"><span>Object </span></a><span>-->
+                                    <ul class="social-icon">
+                                        <li>
+                                            <span>
+                                                <a href="https://www.facebook.com/Synergy.CRM.Software" target="_blank"  rel="opener">
+                                                    <img src="assets/icons/fb.svg" alt="image" />
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                             <span>
+                                            <a href="https://www.instagram.com/synergycrm/" target="_blank" rel="opener">
+                                                <img src="assets/icons/insta.svg" alt="image" />
+                                            </a>
+                                                 </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="https://www.linkedin.com/company/synergycrm/about/?viewAsMember=true" target="_blank"  rel="opener">
+                                                    <img src="assets/icons/linkedin.svg" alt="image" />
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <a href="https://x.com/crm_synergy" target="_blank" rel="opener">
+                                                    <img src="assets/icons/X.svg" alt="image" />
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>
+</div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-footer-widget">
+                                <h3>Quick Links</h3>
+
+                                <ul class="import-link">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="About/about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a  href="#Industries" >Industries</a>
+                                    </li>
+                                    <li>
+                                        <a href="#casestudy" >Case Studies</a>
+                                    </li>
+                                    <!--<li>
+                                    <a href="about.html">Blogs</a>
+                                </li>-->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-footer-widget">
+                                <h3>Services Links</h3>
+
+                                <ul class="import-link">
+                                    <li>
+
+                                        <a href="FieldServiceOperations/index.html">Field Service Operations</a>
+                                    </li>
+                                    <li>
+                                        <a href="PartnerManagement/index.html">Partner Management</a>
+                                    </li>
+                                    <li>
+                                        <a href="SiteManagement/index.html">Site Management</a>
+                                    </li>
+                                    <li>
+                                        <a href="HelpDesk/index.html">Help Desk</a>
+                                    </li>
+                                    <li>
+                                        <a href="ServiceCenters/index.html">Service Centers</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-footer-widget">
+                                <h3>Contacts</h3>
+
+                                <ul class="address">
+                                    <li class="location">
+                                        A337-D, TTK Road, Deevan Sahib Garden, Royapettah, Chennai, India - 600 014
+                                    </li>
+
+                                    <li>
+                                        <a >
+                                            <img src="assets/icons/mail.svg" alt="image" />
+                                            <span class="__cf_email__" data-cfemail="deb6bbb2b2b19eadbbb5abf0bdb1b3">cogent.enquiry@gmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a >
+                                            <img src="assets/icons/call.svg" alt="image" />
+                                            +91 98400 75250
+                                        </a>
+                                    </li>
+                                    <!--<li>
+                                    <span>Fax:</span>
+                                    <a href="tel:+44-785-4578964">+44 785 4578964</a>
+                                </li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer Area -->
+            <!-- Start Copy Right Area -->
+            <div class="copy-right-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <p>© Synergy CRM is Proudly Owned by Cogent Innovation Pvt Ltd. <a href="https://envytheme.com/" target="_blank"></a></p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <ul class="footer-menu">
+                                <li>
+                                    <a target="_blank">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modalPopup" class="modal-overlay" style="display:none;">
+                <div class="modal-content" style="width:740px;height:583px;position:relative;border-radius:25px;">
+                    <button class="close-btn" onclick="closePopup()"
+                            style="position:absolute;right:10px;top:10px;">
+                        &times;
+                    </button>
+                    <iframe id="contactFrame" src="#" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+            <!-- End Copy Right Area -->
+            <!-- Start Go Top Area -->
+            <!--<div class="go-top">
+            <i class='bx bx-chevrons-up'></i>
+            <i class='bx bx-chevrons-up'></i>
+        </div>-->
+            <!-- End Go Top Area -->
+            <!-- Jquery Min JS -->
+            <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.html"></script>
+            <script src="assets/js/jquery.min.js"></script>
+            <!-- Bootstrap Bundle Min JS -->
+            <script src="assets/js/bootstrap.bundle.min.js"></script>
+            <!-- Meanmenu Min JS -->
+            <script src="assets/js/meanmenu.min.js"></script>
+            <!-- Owl Carousel Min JS -->
+            <script src="assets/js/owl.carousel.min.js"></script>
+            <!-- Owl Carousel Thumbs Min JS -->
+            <script src="assets/js/carousel-thumbs.min.js"></script>
+            <!-- Wow Min JS -->
+            <script src="assets/js/wow.min.js"></script>
+            <!-- Nice Select Min JS -->
+            <script src="assets/js/nice-select.min.js"></script>
+            <!-- Magnific Popup Min JS -->
+            <script src="assets/js/magnific-popup.min.js"></script>
+            <!-- Ofi Min JS -->
+            <script src="assets/js/ofi.min.js"></script>
+            <!-- jarallax Min JS -->
+            <script src="assets/js/jarallax.min.js"></script>
+            <!-- Appear Min JS -->
+            <script src="assets/js/appear.min.js"></script>
+            <!-- Odometer JS -->
+            <script src="assets/js/odometer.min.js"></script>
+            <!-- Swiper Bundle  JS -->
+            <script src="assets/js/swiper-bundle.min.js"></script>
+            <!-- Form Validator Min JS -->
+            <script src="assets/js/form-validator.min.js"></script>
+            <!-- Contact JS -->
+            <script src="assets/js/contact-form-script.html"></script>
+            <!-- Ajaxchimp Min JS -->
+            <script src="assets/js/ajaxchimp.min.js"></script>
+            <!-- Custom JS -->
+            <script src="assets/js/custom.js"></script>
+</body>
+
+<!-- Mirrored from synergycrm.net/Website/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 Oct 2025 05:33:32 GMT -->
+</html>

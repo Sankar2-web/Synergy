@@ -1,0 +1,217 @@
+/*
+@File: Seku Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+******************************************* 
+** - DEFAULT AREA STYLE - **
+
+** - Default Btn Area Style
+** - Read More Area Style
+
+** - HOME PAGE STYLE - **
+
+** - Header Area Style
+** - Nav Area
+** - Banner Area Style
+** - Hero Slider Area Style
+** - Features Area Style
+** - Partner Area Style
+** - Security Area Style
+** - Approach Area Style
+** - Solutions Area Style
+** - Electronic Area Style
+** - Complete Area Style
+** - Client Area Style
+** - Cybersecurity Area Style
+** - Blog Area Style
+** - Footer Top Area Style
+** - Footer Bottom Area Style
+
+** - OTHER STYLE AREA - **
+
+** - Preloader Area Style
+** - Go Top Style
+** - Video wave Style
+** - Section Title Area Style
+** - Nice select Area
+
+*******************************************
+/*
+
+/*
+Default Style
+============================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap%27);");
+/* Colors & Fonts Style (Newly Added) */
+/* Newly Added */
+ body {
+            font-family: lato, sans-serif;
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-container {
+    background: #fff;
+    border: 15px solid #ffcc33;
+    border-radius: 32px;
+    padding: 24px 32px;
+    /* width: 420px; */
+    position: relative;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 656px;
+    height: 513px;
+    margin-top: -9px;
+
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+        }
+
+        h2 {
+            /*font-size: 22px;
+            margin-bottom: 8px;
+            line-height: 1.4;*/
+            color: #2C2C2C;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+text-transform: capitalize;
+margin-top:-5px;
+        }
+
+        h2 .highlight {
+          color: #FFB900;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+text-transform: capitalize;
+        }
+
+        p {
+           color: #2C2C2C;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; /* 171.875% */
+margin-top:-15px;
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+        }
+
+        input, textarea {
+            flex: 1;
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            /*font-size: 14px;*/
+            margin-top:20px;
+            color: #6A6A6A;
+leading-trim: both;
+text-edge: cap;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 314.286% */
+/*width: 300px;*/
+/*height: 30px;*/
+flex-shrink: 0;
+        }
+
+        textarea {
+          width: 630px;
+height: 80px;
+flex-shrink: 0;
+/*border-radius: 20px;*/
+background: #FFF;
+        }
+
+        .checkbox {
+            /*fdisplay: flex;*/
+width: 16px;
+height: 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+        }
+
+        .submit-btn {
+            /*background: linear-gradient(to right, #f4b400, #ffcc33);
+            border: none;
+            padding: 12px;
+            font-size: 15px;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;*/
+            display: flex;
+width: 189px;
+height: 50px;
+padding: 16px 15px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+flex-shrink: 0;
+border-radius: 5px;
+background: linear-gradient(90deg, rgba(255, 185, 0, 0.50) 0%, #FFB900 100%), #FFF;
+color: #2C2C2C;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 88.889% */
+text-transform: capitalize;
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(to right, #e5a900, #f4b400);
+        }
+        .form-control{
+              flex: 1;
+            padding: 5px 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            /*font-size: 14px;*/
+            margin-top:20px;
+            color: #6A6A6A;
+leading-trim: both;
+text-edge: cap;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 314.286% */
+/*/*width: 300px;*/*/
+/*height: 30px;*/
+flex-shrink: 0;
+        }
+ 
+/* End "Cryptocurrency Security", "Finance & Fin Tech Security" & "Space Security" Demo CSS
+==============================================================================================*//*# sourceMappingURL=style.css.map */
